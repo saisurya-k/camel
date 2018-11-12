@@ -184,7 +184,7 @@ src/test/resources/org/apache/camel/spring/patterns/FilterTest-context.xml
 #### Plain Spring Test Using JUnit 4.x With Java Config Example
 
 You can completely avoid using an XML configuration file by using http://camel.apache.org/spring-java-config.html[Spring Java Config].  Here is a unit test using JUnit 4.x support from Spring Test using http://svn.apache.org/repos/asf/camel/trunk/components/camel-spring-javaconfig/src/test/java/org/apache/camel/spring/javaconfig/patterns/FilterTest.java[Java Config].
-[source,text]
+[source,java]
 ----
 // tag::example[]
 @RunWith(CamelSpringJUnit4ClassRunner.class)
